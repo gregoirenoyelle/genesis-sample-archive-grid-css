@@ -1818,12 +1818,12 @@ p.entry-meta {
 		grid-column: 1 / -1;
 	}
 
-	.category .entry:nth-child(4),
-	.category .entry:nth-child(5) {
+	.category .entry:nth-of-type(2),
+	.category .entry:nth-of-type(3) {
 		grid-column: auto / span 3;
 	}
 
-	.category .entry:nth-child(n+6) {
+	.category .entry:nth-of-type(n+4) {
 		grid-column: auto / span 2;
 	}        
 
